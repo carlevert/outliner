@@ -1,0 +1,14 @@
+@import-normalize;
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,57 @@
+.container {
+    padding-left: 18px;
+    position: relative;
+}
+
+.item {
+    background-color: transparent;
+    padding: 3px 5px;
+    display: flex;
+    align-items: center;
+}
+
+.item.selected {
+    background-color: #fafafa
+}
+
+.content {
+    font-weight: 300;
+    line-height: 10px;
+}
+
+.content.l1 {
+    font-size: 25px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+.content.l2 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+.content.l3 {
+    line-height: 22px;
+    font-weight: 500;
+}
+
+.input {
+    all: unset;
+    width: 300px;
+}
+
+.ref {
+    position: absolute;
+    width: 180px;
+    display: block;
+    font-size: 12px;
+}
+
+.ref.id {
+    left: 400px;
+}
+
+.ref.parent {
+    left: 590px;
+}
